@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/51f8709370.js" crossorigin="anonymous"></script>
+    <title>Discografia_Labenu</title>
+</head>
+
+<body>
+    <header>
+        <h1>Discografia_Labenu<i class="fa-solid fa-record-vinyl"></i></h1>
+        <article id="nav-header">
+            <span id="opcao01" onclick="renderDiscografia(albums)"><i class="fa-solid fa-bars"></i> Mostrar tudo</span>
+            <span id="opcao02" onclick="window.scroll(0, 5000)"><i class="fa-regular fa-address-card"></i> Sobre a Discografia</span>
+            <span id="opcao03" onclick="window.scroll(0, 5000)"><i class="fa-solid fa-message"></i> Entre em contato</span>
+        </article>
+    </header>
+
+    <main>
+        <section id="campoDePesquisa">
+            <input id="barraDePesquisa" type="text" placeholder="Digite um artista..." />
+            <button type="button" onclick="pesquisar()"><i class="fa-solid fa-magnifying-glass"></i> Pesquisar</button>
+        </section>
+
+        <section id="discografia">
+
+        </section>
+    </main>
+
+    <footer>
+        <section id="descricao">
+            <h3>Sobre a página.</h3>
+            <p>Olá pra você que está visitando esta página! Seja bem-vindo! Esta pagina foi crida com muito amor e carinho, com o objetivo de mostrar os conhecimentos dominados sobre CSS3, HTML5 e JavaScript. A idea principal da página são os albums favoritos do desenvolvedor da página, por isso o nome <i>Discografia</i>.</p>
+        </section>
+
+        <section id="redesSociais">
+            <h3>Fale Conosco.</h3>
+            <span><a href="https://github.com/Gvitor10" target="_blank">Github.</a> <i class="fa-brands fa-github"></i></span>
+            <span>Linked'In. <i class="fa-brands fa-linkedin"></i></span>
+        </section>
+
+        <section id="tecnologias">
+            <h3>Técnologias.</h3>
+            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css3-alt"></i>
+        </section>
+
+        <section id="copyright">
+            <h5><i>Desenvolvido por <u>Gabriel Lobo</u>, turma Barbosa-C. Todos os direitos reservados.<i class="fa-regular fa-copyright"></i></i></h5>
+        </section>
+    </footer>
+</body>
+</html>
